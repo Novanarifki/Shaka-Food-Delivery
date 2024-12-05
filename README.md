@@ -13,7 +13,7 @@
 
   Shaka-food is a fully responsive restaurant website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://Novanarifki.github.io/Shaka-food/"><strong>➥ Live Demo</strong></a>
+  <a href="https://novanarifki.github.io/Shaka-Food/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
