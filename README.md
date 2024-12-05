@@ -9,9 +9,9 @@
   <br />
   <br />
 
-  <h2 align="center">Grilli - Restaurant Website</h2>
+  <h2 align="center">Shaka-food - Home made food Website</h2>
 
-  Grilli is a fully responsive restaurant website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+  Shaka-food is a fully responsive restaurant website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
   <a href="https://Novanarifki.github.io/Shaka-food/"><strong>➥ Live Demo</strong></a>
 
