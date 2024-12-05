@@ -697,7 +697,7 @@
 
                   <div class="title-wrapper">
                     <h3 class="title-3">
-                      <a href="#" class="card-title">Pangsit Ayam</a>
+                      <a href="./assets/images/Pangsit Ayam.jpg" class="card-title">Pangsit Ayam</a>
                     </h3>
 
                     <span class="span title-2">IDR 10.000</span>
@@ -758,10 +758,10 @@
           </div>
 
           <div class="profile">
-            <img src="./assets/images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Sam Jhonson"
+            <img src="./assets/images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Novan Arifki"
               class="img">
 
-            <p class="label-2 profile-name">Sam Jhonson</p>
+            <p class="label-2 profile-name">Novan Arifki</p>
           </div>
 
         </div>
@@ -780,34 +780,32 @@
 
           <div class="form reservation-form bg-black-10">
 
-            <form action="" class="form-left">
+            <form name="contact-form-pemesanan" class="form-left">
 
               <h2 class="headline-1 text-center">Pesan Via Whatsapp</h2>
 
               <p class="form-text text-center">
-                Permintaan pemesanan <a href="wa.me/+6285776338805" class="link">+62 857-7633-8805</a>
+                Permintaan pemesanan <a href="https://wa.me/+6285776338805" class="link">+62 857-7633-8805</a>
                 atau isi formulir pemesanan
               </p>
-
               <div class="input-wrapper">
-                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+                <input type="text" name="nama" placeholder="nama" autocomplete="off" class="input-field">
 
-                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+                <input type="tel" name="phone" placeholder="no telpon" autocomplete="off" class="input-field">
               </div>
 
               <div class="input-wrapper">
 
                 <div class="icon-wrapper">
-                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                  <ion-icon name="fast-food" aria-hidden="true"></ion-icon>
 
-                  <select name="person" class="input-field">
-                    <option value="1-person">1 Person</option>
-                    <option value="2-person">2 Person</option>
-                    <option value="3-person">3 Person</option>
-                    <option value="4-person">4 Person</option>
-                    <option value="5-person">5 Person</option>
-                    <option value="6-person">6 Person</option>
-                    <option value="7-person">7 Person</option>
+                  <select name="menu" class="input-field">
+                    <option value="Cilok Ayam Suwir">Cilok Ayam Suwir</option>
+                    <option value="Mie Kobong">Mie Kobong</option>
+                    <option value="Lumpia Pisang">Lumpia Pisang</option>
+                    <option value="Dimsum">Dimsum</option>
+                    <option value="Keju Aroma">Keju Aroma</option>
+                    <option value="Pangsit Ayam">Pangsit Ayam</option>
                   </select>
 
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
@@ -816,7 +814,7 @@
                 <div class="icon-wrapper">
                   <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
 
-                  <input type="date" name="reservation-date" class="input-field">
+                  <input type="date" name="untuk-tanggal" class="input-field">
 
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                 </div>
@@ -824,22 +822,14 @@
                 <div class="icon-wrapper">
                   <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                  <select name="person" class="input-field">
-                    <option value="08:00am">08 : 00 am</option>
-                    <option value="09:00am">09 : 00 am</option>
-                    <option value="010:00am">10 : 00 am</option>
-                    <option value="011:00am">11 : 00 am</option>
-                    <option value="012:00am">12 : 00 am</option>
-                    <option value="01:00pm">01 : 00 pm</option>
-                    <option value="02:00pm">02 : 00 pm</option>
-                    <option value="03:00pm">03 : 00 pm</option>
-                    <option value="04:00pm">04 : 00 pm</option>
-                    <option value="05:00pm">05 : 00 pm</option>
-                    <option value="06:00pm">06 : 00 pm</option>
-                    <option value="07:00pm">07 : 00 pm</option>
-                    <option value="08:00pm">08 : 00 pm</option>
-                    <option value="09:00pm">09 : 00 pm</option>
-                    <option value="10:00pm">10 : 00 pm</option>
+                  <select name="jam" class="input-field">
+                    <option value="09:00 Pagi">09 : 00 Pagi</option>
+                    <option value="10:00 Pagi">10 : 00 Pagi</option>
+                    <option value="11:00 Siang">11 : 00 Siang</option>
+                    <option value="12:00 Siang">11 : 00 Siang</option>
+                    <option value="13:00 siang">12 : 00 Siang</option>
+                    <option value="14:00 Siang">14 : 00 Siang</option>
+                    <option value="15:00 Sore">15 : 00 Sore</option>
                   </select>
 
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
@@ -847,13 +837,17 @@
 
               </div>
 
-              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+              <textarea name="pesan" placeholder="pesan" autocomplete="off" class="input-field"></textarea>
 
               <button type="submit" class="btn btn-secondary">
                 <span class="text text-1">Pesan</span>
 
                 <span class="text text-2" aria-hidden="true">Pesan</span>
               </button>
+              <div class="alert alert-success alert-dismissible fade show" role="alert d-none">
+                <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
 
             </form>
 
@@ -863,7 +857,7 @@
 
               <p class="contact-label">Permintaan Pemesanan</p>
 
-              <a href="wa.me/+6285776338805" class="body-1 contact-number hover-underline">+62 857-7633-8805</a>
+              <a href="https://wa.me/+6285776338805" class="body-1 contact-number hover-underline">+62 857-7633-8805</a>
 
               <div class="separator"></div>
 
@@ -1221,7 +1215,18 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxRq-flniuEkMvw9CmmrRBsDLQcjEpfhTLYMa2o6diULIlPkJeg1T-xSYLbHuxwjqS32A/exec'
+    const form = document.forms['contact-form-pemesanan']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+ 
 </body>
 
 </html>
